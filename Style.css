@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20+Charted&family=Jersey+25&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20+Charted&family=Jersey+25&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background: url(bg.jpg), no-repeat, center;
+background-size: cover;
+}
+
+.navbar{
+background-color: blueviolet;
+padding: 10px;
+
+}
+
+.navbar ul{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar ul li{
+    padding: 5px 15px;
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.navbar ul li:hover{
+  color: black;
+}
+
+.container{
+    display: block;
+    position: absolute;
+    top: 210px;
+    left: 515px;
+}
+
+.container h1{
+    font-size: 50px;
+    padding: 10px;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(199, 3, 199);
+    margin-bottom: 15px;
+}
+
+.container input{
+    font-size: 18px;
+    padding: 10px;
+    width: 70%;
+    outline: none;
+    border: 2px solid purple;
+    border-radius: 16px;
+    margin: 5px;
+    background: none;
+    color: white;
+}
+
+.container #btn{
+    font-size: 20px;
+    padding: 5px 20px;
+    outline: none;
+    border: 2px solid purple;
+    color: grey;
+    border-radius: 8px;
+    margin: 15px 120px;
+    background: none;
+    cursor: pointer;
+}
+
+.container #btn:hover{
+    background-color: rgba(128, 128, 128, 0.589);
+    color: white;
+}
+
+.container i{
+    color: grey;
+    font-size: 21px;
+}
